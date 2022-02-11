@@ -1,22 +1,20 @@
-echo 'Hello from .zshrc'
-
-# Set Variables
+# Variables
 export EDITOR=code
 
-# Change ZSH Options
+# Options
 setopt no_case_glob
 setopt correct
 setopt correct_all
 setopt auto_cd
 
-# Create Aliases
+# Aliases
 alias ls='ls -lAFh'
 
-# Customize Prompts
+# Prompts
 PROMPT='
 %/ %# '
 
-# Add Locations to $PATH Variable
+# $PATH Variable
 
 # Functions
 function mkcd() {
